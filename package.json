@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/NathanLawrence/quickalytics/issues"
   },
-  "homepage": "https://github.com/NathanLawrence/quickalytics#readme"
+  "homepage": "https://github.com/NathanLawrence/quickalytics#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-cssnano": "^2.1.1",
+    "gulp-less": "^3.0.5"
+  }
 }
