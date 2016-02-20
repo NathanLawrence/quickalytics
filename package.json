@@ -1,0 +1,19 @@
+{
+  "name": "quickalytics",
+  "version": "0.0.1",
+  "description": "Analytics that follow a Core Publisher story no matter how many outlets pick it up.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NathanLawrence/quickalytics.git"
+  },
+  "author": "nathan@nathanlawrence.org",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/NathanLawrence/quickalytics/issues"
+  },
+  "homepage": "https://github.com/NathanLawrence/quickalytics#readme"
+}
