@@ -5,7 +5,7 @@ var fillForm = function (event){
     var articleAuthor = $('#article-author').val();
     var articleTags = $('#article-tags').val();
 
-    var baseURL = '%%BaseURL%%';
+    var baseURL = 'qa.exampledomain.com';
 
     var finalURL = encodeURI(`http://${baseURL}/app.html?title=${articleTitle}&author=${articleAuthor}&tags=${articleTags}`);
 

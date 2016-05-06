@@ -36,7 +36,7 @@ var parentURL = (window.location != window.parent.location)
 })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
 // Tracking 'Creation' - this is where the GA magic starts to happen
-ga('create', '%%TrackingID%%', 'auto');
+ga('create', 'UA-000000-01', 'auto');
 
 
 // Set our custom dimensions. This is where the actually helpful stuff really happens.
@@ -48,7 +48,7 @@ ga('set', 'dimension3', getUrlParameter('tags')); // Article Tags
 
 // And these two are parsed from the document referrer URL.
 ga('set', 'dimension5', parentURL.href); // Parent Page (Referrer) URL
-ga('set', 'dimension4', parentURL.hostname); // Parent Page (Referrer) Domain Name
+ga('set', 'dimension4', parentURL.hostname ); // Parent Page (Referrer) Domain Name
 
 // Send the finalized pageview. This ALWAYS must happen last,
 // since any custom dimensions we set above will be attached to this.
