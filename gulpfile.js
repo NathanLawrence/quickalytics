@@ -1,5 +1,5 @@
-var gulp = require("gulp"),
-	gutil = require("gulp-util"),
-	less = require("gulp-less"),
-	cssnano = require("gulp-cssnano");
+var gulp = require('gulp'),
+	gutil = require('gulp-util'),
+    browserify = require('gulp-browserify'),
+    replace = require('gulp-replace');
 

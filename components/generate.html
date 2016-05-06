@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Bootstrap 3.3.6 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+	<title>Quickalytics Builder - %%OrgName%%</title>
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1>%%OrgName%%</h1>
+            <h2>Quickalytics Builder</h2>
+        </div>
+        
+        <div class="col-md-6">
+            <div class="form-group"> 
+                <input type="text" class="form-control" placeholder="Article Title" aria-describedby="basic-addon2">
+            </div>
+            <div class="form-group"> 
+                <input type="text" class="form-control" placeholder="Article Author" aria-describedby="basic-addon2">
+            </div>
+            <div class="form-group">
+                <a href="#" class="btn btn-primary">Generate Embed Code</a>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="form-group">
+                <textarea id="code-here" class="form-control"><iframe frameborder="0" height="10px" width="100%" src="%%BaseURL%%/app.html"></iframe></textarea>
+            </div>
+
+
+            <div class="alert alert-success hidden" role="alert">
+            <strong>Neato! </strong>
+            <span>Now you're ready to copy and paste the embed code above into your CMS's "source" mode at the bottom of the article.</span>
+            </div>
+
+            <div class="alert alert-warning" role="alert">
+            <strong>If you must... </strong>
+            <span>You can already copy and paste this embed code into your CMS's "source" mode and get basic Google Analytics tracking, but to know information like what story this is or who the author might be, you might want to add some information on the left and hit the generate button.</span>
+            </div>
+
+            <div class="alert alert-danger hidden" role="alert">
+            <strong>Oh no! </strong>
+            <span>Something seems to have gone terribly wrong. You might want to contact whoever installed this to see if they can help you out.</span>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
