@@ -20,8 +20,12 @@
             <div class="form-group"> 
                 <input type="text" class="form-control" placeholder="Article Author" aria-describedby="basic-addon2">
             </div>
+            <div class="form-group"> 
+                <input type="text" class="form-control" placeholder="Article Tags" aria-describedby="basic-addon2">
+                <p class="help-block">These can be arranged however you want. Google Analytics won't separate these tags; they'll just be searchable text when making reports.</p>
+            </div>
             <div class="form-group">
-                <a href="#" class="btn btn-primary">Generate Embed Code</a>
+                <a href="#" onclick="fillForm()" class="btn btn-primary">Generate Embed Code</a>
             </div>
         </div>
 
@@ -36,7 +40,7 @@
             <span>Now you're ready to copy and paste the embed code above into your CMS's "source" mode at the bottom of the article.</span>
             </div>
 
-            <div class="alert alert-warning" role="alert">
+            <div class="alert alert-warning hidden" role="alert">
             <strong>If you must... </strong>
             <span>You can already copy and paste this embed code into your CMS's "source" mode and get basic Google Analytics tracking, but to know information like what story this is or who the author might be, you might want to add some information on the left and hit the generate button.</span>
             </div>
@@ -47,6 +51,6 @@
             </div>
         </div>
     </div>
-
+    <script type="text/javascript" src="js/generate-client.js"></script>
 </body>
 </html>
