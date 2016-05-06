@@ -31,4 +31,4 @@ Google Analytics that follows a story around after it's republished.
 
 Every API has different restrictions and opinions around how tracking should be handled. Some even ban article-embedded tracking outright. I did not write this tool to get around such rules or restrictions, and I'm hopeful that anyone using it will keep that in mind. The onus is on an individual outlet, publisher or individual using this tool to decide if the way they are using it is healthy and helpful to the end user.
 
-Also consider implementing a privacy policy. You can just add a link to it in the `app.html` file that will be embedded in every page, then store it on the same serve.
+Also consider implementing a privacy policy. You can just add a link to it in the `app.html` file that will be embedded in every page, then store it on the same server.
