@@ -48,7 +48,7 @@ ga('set', 'dimension3', getUrlParameter('tags')); // Article Tags
 
 // And these two are parsed from the document referrer URL.
 ga('set', 'dimension5', parentURL.href); // Parent Page (Referrer) URL
-ga('set', 'dimension4', parentURL.hostname ); // Parent Page (Referrer) Domain Name
+ga('set', 'dimension4', parentURL.hostname); // Parent Page (Referrer) Domain Name
 
 // Send the finalized pageview. This ALWAYS must happen last,
 // since any custom dimensions we set above will be attached to this.
