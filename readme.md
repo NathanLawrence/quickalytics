@@ -1,6 +1,9 @@
 # Quickalytics
 Google Analytics that follows a story around after it's republished.
 
+## End of Life
+**Starting March 1, 2019, Quickalytics will enter its end of life phase. Existing Quickalytics systems may be supported for a limited time, but further updates will not be provided.**
+
 ## How To Get Set Up
 
 1. Make sure you have Node.js installed on your local machine.
